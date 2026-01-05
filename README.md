@@ -7,7 +7,7 @@ This work proposes a deep neural network model to improve automated bug localiza
 
 The model integrates a dual-feature extraction pipeline that calculates Lexical Similarity using TF-IDF vectorization and Semantic Similarity via GloVe word embeddings and cosine similarity. 
 To capture historical context, we engineered features including Code Change History (H) based on report timelines, Bug Fixing Frequency (F), and Similar Bug Report (R) scores.
-
 The data was processed through temporal sorting and K-Fold cross-validation, and features were normalized using MinMaxScaler from Scikit-learn to ensure consistent model performance.
+
 The system was evaluated using Mean Average Precision (MAP) and Top-k accuracy metrics to measure ranking performance
 
